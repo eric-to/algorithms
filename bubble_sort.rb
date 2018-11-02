@@ -1,5 +1,5 @@
-def swap(arr, idx1, idx2)
-  arr[idx1], arr[idx2] = arr[idx2], arr[idx1]
+def swap(arr, idx_1, idx_2)
+  arr[idx_1], arr[idx_2] = arr[idx_2], arr[idx_1]
 end
 
 def bubble_sort(arr, &prc)
