@@ -2,7 +2,7 @@ def swap(arr, idx_1, idx_2)
   arr[idx_1], arr[idx_2] = arr[idx_2], arr[idx_1]
 end
 
-# bubble_sort accepts a Proc for sorting in desired order
+# bubble_sort accepts a Proc for sorting in a specific order
 def bubble_sort(arr, &prc)
   prc ||= Proc.new { |x, y| x <=> y }
 
