@@ -1,3 +1,22 @@
+=begin
+---------
+Analysis:
+---------
+Runtime: O(n^2)
+Space: O(1)
+Best-case: n
+---------
+Description
+---------
+Here I've defined two bubble_sort methods. Both are almost functionally the same, except one
+requires fewer iterations.
+
+Bubble sort is practically slow on almost all real data sets, so it's better to use other
+sorting algorithms. Although, it runs fairly quickly on small arrays and partially sorted
+data (where only a handful of elements are out of place and need to be swapped).
+---------
+=end
+
 def swap(arr, idx_1, idx_2)
   arr[idx_1], arr[idx_2] = arr[idx_2], arr[idx_1]
 end
