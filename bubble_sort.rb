@@ -7,7 +7,6 @@ Runtime: O(n^2)
 Space: O(1)
 Best-case: n
 
-
 ---------------
 Description
 ---------------
@@ -17,7 +16,6 @@ requires fewer iterations.
 Bubble sort is practically slow on almost all real data sets, so it's better to use other
 sorting algorithms. Although, it runs fairly quickly on small arrays and partially sorted
 data (where only a handful of elements are out of place and need to be swapped).
-
 
 ---------------
 How it works
