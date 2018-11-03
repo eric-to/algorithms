@@ -42,7 +42,7 @@ How it works
       ^
   [3, 2, 4, 1]
          ^
-  [3, 2, 1, 4] the maximum element gets moved to the end of the array
+  [3, 2, 1, 4]  # the maximum element gets moved to the end of the array
             ^
 
   SECOND ITERATION OF INNER LOOP
@@ -50,12 +50,12 @@ How it works
    ^
   [2, 3, 1, 4]
       ^
-  [2, 1, 3, 4] note that we don't need to look at 4 since it's in the right position already
+  [2, 1, 3, 4]  # note that we don't need to look at 4 since it's in the right position already
          ^
   .
   .
   .
-  [1, 2, 3, 4] we're done, yay!
+  [1, 2, 3, 4]  # we're done, yay!
 
 =end
 
