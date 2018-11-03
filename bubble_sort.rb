@@ -14,7 +14,7 @@ Here I've defined two bubble_sort methods. Both are almost functionally the same
 requires fewer iterations.
 
 Bubble sort is practically slow on almost all real data sets, so it's better to use other
-sorting algorithms. Although, it runs fairly quickly on small arrays and partially sorted
+sorting algorithms, although it runs fairly quickly on small arrays and partially sorted
 data (where only a handful of elements are out of place and need to be swapped).
 
 ---------------
@@ -31,7 +31,7 @@ How it works
   the number of outer iterations we've completed
 
   why this works: on each iteration of the inner loop, the maximum element gets bubbled up
-  (or swapped) to the end of the array, so after n iterations of the outer loop, the n
+  (or swapped up) to the end of the array, so after n iterations of the outer loop, the n
   largest elements in the array are located at the very end - therefore, we can avoid
   looking at them
 
@@ -50,12 +50,14 @@ How it works
    ^
   [2, 3, 1, 4]
       ^
-  [2, 1, 3, 4]  # note that we don't need to look at 4 since it's in the right position already
+  [2, 1, 3, 4]  # note that after 2 iterations, 3 and 4 are in the correct position
          ^
-  .
-  .
-  .
+
+  THIRD ITERATION OF THE INNER LOOP
+  [2, 1, 3, 4]
+   ^
   [1, 2, 3, 4]  # we're done, yay!
+      ^
 
 =end
 
