@@ -22,12 +22,3 @@ Benchmark.bm(17) do |bm|
   bm.report("naive_factors") { naive_factors(1_000_000_000) } # finished 84.6587 seconds
   bm.report("optimized_factors") { optimized_factors(1_000_000_000) } # finished 0.0077 seconds
 end
-
-[1] << 2
-[1].concat([2])
-[1] += [2]
-[1].push(2)
-[1].shift(2)
-[1].unshift(2)
-[1].drop(2)
-[1].take(2)
