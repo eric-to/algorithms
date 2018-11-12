@@ -15,5 +15,10 @@ def merge_helper(left, right, &prc)
     else
       combined_arr << left.shift
     end
+  end
   combined_arr + left + right
 end
+
+# TEST code
+unsorted_arr = [9, 4, 5, 3, 1, 2, 7, 6, 8]
+p merge_sort(unsorted_arr) # should be [1, 2, 3, 4, 5, 6, 7, 8, 9]
